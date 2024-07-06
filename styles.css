@@ -1,0 +1,393 @@
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: #0025ff;
+    padding: 10px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 65px;
+    padding-top: 11px;
+    padding-left: 40px;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+nav .first-buttons{
+    padding-top: 18px;
+    padding-right: 560px;
+}
+nav button{
+    display: inline-flex;
+    background: transparent;
+    border:0;
+    font-weight: 600;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+nav button:hover{
+    cursor: pointer;
+}
+.viewproductbutton{
+    display: inline-flex;
+    background: transparent;
+    border:0;
+    font-weight: 600;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+nav button img{
+    width: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.buyproductbtn{
+    border: 2px solid white;
+    border-radius: 58px;
+    margin-right: 15px;
+    margin-top: 14px;
+}
+.feature1{
+    width: 100%;
+    height: 711px;
+}
+.feature1 video{
+    width: 100%;
+    height: 711px;
+}
+.feature2{
+    width: 1263px;
+    height: 800px;
+    position: relative;
+}
+.feature2img{
+    width: 1263px;
+    height: 800px;
+}
+.shopnow{
+    position: absolute;
+    top: 648px;
+    left: 521px;
+}
+.shopnowbutton{
+    width: 240px;
+    height: 68px;
+    font-size: 19px;
+    font-weight: 900;
+    color: black;
+}
+.shopnowbutton:hover{
+    background: #0025ff;
+    cursor: pointer;
+    border: #0025ff;
+}
+.feature3background{
+    width: 1263px;
+    height: 1000px;
+    position: relative;
+}
+.feature3backgroundimg{
+    width: 1263px;
+    height: 1000px;
+}
+.feature3text{
+    position: absolute;
+    position: relative;
+}
+.feature3text1{
+    
+    width: 600px;
+    height: 0px;
+    font-size: 14px;
+    color: white;
+    font-weight: 900;
+    
+}
+.feature3text1 h1{
+    width: 674px;
+    height: 35px;
+    position: absolute;
+    bottom: 946px;
+    left: 305px;
+    font-weight: 900;
+    font-size: 73px;
+}
+.feature3text2{
+    width: 600px;
+    height: 0px;
+}
+.feature3text2 h1{
+    position: absolute;
+    bottom: 806px;
+    color: white;
+    font-weight: 900;
+    font-size: 73px;
+    left: 216px;
+}
+.feature3img{
+    width: 100%;
+    height: 399px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 265px;
+    left: 9px;;
+}
+.feature3img1 img{
+    width: 552px;
+    height: 400px;
+}
+.feature3img2 img{
+    width: 552px;
+    height: 400px;;
+}
+.feature3imgbtn{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 84px;
+    justify-content: space-evenly;
+    bottom: 185px;
+}
+.feature3img1btn{
+    width: 405px;
+    height: 75px;
+    font-size: 29px;
+    font-weight: 900;
+}
+.feature3img2btn{
+    width: 405px;
+    height: 75px;
+    font-size: 29px;
+    font-weight: 900;
+}
+.feature3imgbtn .feature3imgbtn2{
+    position: absolute;
+    left: 758px
+}
+.feature3imgbtn .feature3imgbtn1{
+    position: absolute;
+    right: 717px;
+}
+.feature3img1btn:hover{
+    background: #0025ff;
+    cursor: pointer;
+    border: #0025ff;
+}
+.feature3img2btn:hover{
+    background: #0025ff;
+    cursor: pointer;
+    border: #0025ff;
+}
+.feature4{
+    width: 100%;
+    height: 711px;
+}
+.feature4 video{
+    width: 100%;
+    height: 711px;
+}
+.feature5{
+    width: 100%;
+    height: 330px;
+    background: black;
+    margin-top: -22px;
+    position: relative;
+}
+.feature5_text{
+    width: 100%;
+    height: 100px;
+    color: #0025ff;
+    font-weight: 900;
+    font-size: 29px;
+    position: absolute;
+    left: 90px;
+    top: -25px;
+}
+.feature5imgs{
+    width: 1093px;
+    height: 190px;
+    border: 4px solid #0025ff;
+    position: absolute;
+    position: relative;
+    top: 100px;
+    left: 88px;
+    display: flex;
+}
+.feature5img1{
+    width: 186.5;
+    height: 190px;
+    display: flex;
+}
+.feature5img1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feature5img2{
+    width: 186.5;
+    height: 190px;
+    display: flex;
+}
+.feature5img2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feature5img3{
+    width: 186.5;
+    height: 190px;
+    display: flex;
+}
+.feature5img3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feature5img4{
+    width: 186.5;
+    height: 190px;
+    display: flex;
+}
+.feature5img4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feature5img5{
+    width: 186.5;
+    height: 190px;
+    display: flex;
+}
+.feature5img5:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feature5img6{
+    width: 186.5;
+    height: 190px;
+    display: flex;
+}
+.feature5img6:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 320px;
+    background: #0025ff;
+    position: relative;
+}
+.footer-logo{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 50px;
+    top: 116px;
+}
+.footer-logo img{
+    width: 120px;
+    height: 120px;
+}
+.footer-logo img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.footer-links{
+    width: 641px;
+    height: 116px;
+    position: absolute;
+    left: 249px;
+    top: 119px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+.colum{
+    padding-left: 32px;
+    width: 200px;
+    height: 116px;
+    padding-top: 19px;
+}
+.colum a{
+    color: white;
+    text-decoration: none;
+    line-height: .8cm;
+}
+.social-media_links{
+    left: 921px;
+    display: flex;
+    width: 299px;
+    height: 43px;
+    position: absolute;
+    top: 149px;
+    justify-content: space-between;
+}
+.icon-instagram{
+    width: 48px;
+    height: 43px;
+    display: flex;
+}
+.icon-instagram img:hover{
+    cursor: pointer;
+    background: grey;
+}
+.icon-twiter{
+    width: 48px;
+    height: 43px;
+    display: flex;
+}
+.icon-twiter img:hover{
+    cursor: pointer;
+    background: grey;
+}
+.icon-facebook{
+    width: 48px;
+    height: 43px;
+    display: flex;
+}
+.icon-facebook img{
+    width: 42;
+}
+.icon-facebook img:hover{
+    cursor: pointer;
+    background: grey;
+}
+.icon-youtube{
+    width: 48px;
+    height: 43px;
+    display: flex;
+}
+.icon-youtube img:hover{
+    cursor: pointer;
+    background: grey;
+}
+.icon-youtube img{
+    width: 42px;
+}
+.icon-tiktok{
+    width: 48px;
+    height: 43px;
+    display: flex;
+}
+.icon-tiktok img:hover{
+    cursor: pointer;
+    background: grey;
+}
+.icon-threads{
+    width: 48px;
+    height: 43px;
+    display: flex;
+}
+.icon-threads img:hover{
+    cursor: pointer;
+    background: grey;
+}
