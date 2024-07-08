@@ -71,6 +71,7 @@ nav button img{
     width: 1263px;
     height: 800px;
     position: relative;
+    margin-top: -1px;
 }
 .feature2img{
     width: 1263px;
