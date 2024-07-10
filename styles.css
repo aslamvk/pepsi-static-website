@@ -110,7 +110,7 @@ nav button img{
 .feature3text1{
     
     width: 600px;
-    height: 0px;
+    height: 30px;
     font-size: 14px;
     color: white;
     font-weight: 900;
@@ -339,7 +339,7 @@ nav button img{
 }
 .icon-instagram img:hover{
     cursor: pointer;
-    background: grey;
+    transform: scale(1.2);
 }
 .icon-twiter{
     width: 48px;
@@ -348,7 +348,7 @@ nav button img{
 }
 .icon-twiter img:hover{
     cursor: pointer;
-    background: grey;
+    transform: scale(1.2);
 }
 .icon-facebook{
     width: 48px;
@@ -360,7 +360,7 @@ nav button img{
 }
 .icon-facebook img:hover{
     cursor: pointer;
-    background: grey;
+    transform: scale(1.2);
 }
 .icon-youtube{
     width: 48px;
@@ -369,7 +369,7 @@ nav button img{
 }
 .icon-youtube img:hover{
     cursor: pointer;
-    background: grey;
+    transform: scale(1.2);
 }
 .icon-youtube img{
     width: 42px;
@@ -381,7 +381,7 @@ nav button img{
 }
 .icon-tiktok img:hover{
     cursor: pointer;
-    background: grey;
+    transform: scale(1.2);
 }
 .icon-threads{
     width: 48px;
@@ -390,5 +390,5 @@ nav button img{
 }
 .icon-threads img:hover{
     cursor: pointer;
-    background: grey;
+    transform: scale(1.2);
 }
